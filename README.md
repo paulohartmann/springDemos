@@ -4,7 +4,7 @@ Collection of projects that I used to test new features and to create some base 
 
 
 ## 1. Entityrelationship
-![entities](https://github.com/paulohartmann/springDemos/blob/main/entityrelationship/entitierelationship.jpg)
+![entities](https://github.com/paulohartmann/springDemos/blob/main/entityrelationship/entitierelationship.png)
 - Spring Boot and JPA
 - Example with @OneToMany and @ManyToOne (**dealing with Infinite Recursion**, see [1.1])
 - Example of basic tests with jUnit
