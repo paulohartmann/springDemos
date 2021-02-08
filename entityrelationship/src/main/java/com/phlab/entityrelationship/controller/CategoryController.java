@@ -29,4 +29,9 @@ public class CategoryController {
     public Iterable<Category> findAll(){
         return categoryService.findAll();
     }
+
+    @GetMapping(path = "{categoryName}")
+    public Category findByName(@PathVariable("categoryName") String name){
+        return categoryService.findByName(name);
+    }
 }

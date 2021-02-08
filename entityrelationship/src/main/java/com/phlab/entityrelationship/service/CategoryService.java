@@ -47,4 +47,8 @@ public class CategoryService {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Category not found");
         }
     }
+
+    public Category findByName(String categoryName){
+        return categoryDao.findByName(categoryName).orElse(null);
+    }
 }
